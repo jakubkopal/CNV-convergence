@@ -11,7 +11,7 @@ Copy number variations (CNVs) are rare genomic deletions and duplications that c
 <c>![Figure 1](https://github.com/jakubkopal/CNV-convergence/blob/main/Figures/Fig1.png)</c>
 
 ## Resources and Scripts
-CNV-specific intermediate phenotypes are saved in `Data/CNV_IP` folder. Cohen's d brain maps are saved in `Data/Cohens_d` folder. LDA and PCA scores along with LDA classification accuracies are saved in `Data/projection` folder. Phenotypic associations are saved in `Data/PheWAS` folder. Findings from the article are based on the analysis scripts in the `Scripts` folder.
+CNV-specific intermediate phenotypes are saved in `Data/CNV_IP` folder. Cohen's d brain maps are saved in `Data/Cohens_d` folder. LDA classification accuracies are saved in `Data/CNV_IP` folder. Phenotypic associations are saved in `Data/PheWAS` folder. Findings from the article are based on the analysis scripts in the `Scripts` folder.
 
 1.   `Scripts/calculate_ip.m` is an example of using Linear discriminant to isolate CNV-specific intermediate pehnotypes from raw anatomical data. Bagging and regularization is implemented to safeguard before overfitting.
 2.   `Scripts/lowdim_projection.py` is an analysis script to plot PCA and LDA two-dimensional projection of regional volumes.
